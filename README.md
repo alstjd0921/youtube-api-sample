@@ -6,6 +6,10 @@ Replace API_KEY in ./src/index.js with yours before use.
 ## Command Line
 
 ```shell
+# Install packages from yarn | npm
+yarn # or 'npm install'
+```
+```shell
 # Start development server
 yarn dev # or 'npm run dev'
 ```
