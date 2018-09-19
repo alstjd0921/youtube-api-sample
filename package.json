@@ -1,0 +1,28 @@
+{
+  "name": "youtube-api-sample",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "youtube-api-search": "^0.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-keystone": "^3.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "parcel index.html -p 3000",
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist .cache"
+  }
+}
