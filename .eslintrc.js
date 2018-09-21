@@ -9,6 +9,7 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "indent": ["error", 4],
         "comma-dangle": ["error", "never"],
         "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}]
     }
