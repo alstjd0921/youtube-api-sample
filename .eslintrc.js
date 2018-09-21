@@ -1,15 +1,18 @@
 module.exports = {
     "env": {
         "browser": true,
-        "node": true,
         "es6": true
     },
     "extends": "airbnb",
     "plugins": [
         "react"
     ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
     "rules": {
-        "indent": ["error", 4],
         "comma-dangle": ["error", "never"],
         "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}]
     }
