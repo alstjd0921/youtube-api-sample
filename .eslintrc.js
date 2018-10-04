@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
+        "node": true,
         "es6": true
     },
     "extends": "airbnb",
@@ -13,7 +14,11 @@ module.exports = {
         }
     },
     "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "comma-dangle": ["error", "never"],
-        "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}]
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]
+        }],
     }
 };
